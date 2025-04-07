@@ -1,0 +1,172 @@
+.main-singup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 786px) {
+  .main-singup-container {
+    padding: 20px;
+  }
+}
+
+.singup-container {
+  display: flex;
+  align-items: center;
+  height: 30rem;
+  width: 100%;
+  max-width: 650px;
+  box-shadow: 0 0 5px #999999;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .singup-container {
+    flex-direction: column;
+    align-items: normal;
+    max-width: 768px;
+    width: 100%;
+    /* height: 40rem; */
+  }
+}
+
+.singup-left {
+  background-color: #2aa15f;
+  height: 100%;
+  width: 60%;
+  clip-path: polygon(0 0, 0% 100%, 100% 0);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff;
+  border-radius: 10px 0px 0px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .singup-left {
+    clip-path: none;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.singup-left h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.singup-left p {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.singup-left button {
+  width: 8rem;
+  padding: 7px 20px;
+  border-radius: 30px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #ffff;
+  box-shadow: inset 0 0 0 0 #ffff;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-weight: 600;
+}
+.singup-left button:hover {
+  color: #2aa15f;
+  box-shadow: inset 150px 0 0 0 #fff;
+}
+
+.singup-right {
+  /* height: 100%; */
+  width: 40%;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .singup-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.singup-right h1 {
+  margin-bottom: 10px;
+  color: #2aa15f;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .singup-right h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.singup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.singup-form div {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+
+.singup-form label {
+  color: #2aa15f;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.singup-form input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #cccc;
+  height: 30px;
+  padding: 0 10px;
+  outline: none;
+  border-radius: 20px;
+  color: #2aa15f;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.singup-form input:focus {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid #2aa15f;
+}
+
+.singup-form button {
+  background-color: transparent;
+  border: 2px solid #2aa15f;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: #2aa15f;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.singup-form button:hover {
+  box-shadow: inset 260px 0 0 0 #2aa15f;
+  color: white;
+}
