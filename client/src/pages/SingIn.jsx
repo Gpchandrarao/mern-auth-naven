@@ -39,7 +39,7 @@ const SingIn = () => {
         <div className="singup-left">
           <h1>Welocome!</h1>
           <p>Create your account. For Free!</p>
-          <Link to="/register">
+          <Link to="/">
             <button type="button">Sign Up</button>
           </Link>
         </div>
